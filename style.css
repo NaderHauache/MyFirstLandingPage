@@ -1,12 +1,30 @@
 /*styles.css of my first landing page*/
 
 body {
-    font-family: 'Roboto';
-    margin: 0;
-    padding: 0;
-    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color:whitesmoke;
+    font-weight: bolder;
+    display: flex;
+}
+
+.header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.footer {
     justify-content: center;
     align-items: center;
+    padding: 1%;
 }
