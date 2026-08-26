@@ -1,29 +1,44 @@
 /*styles.css of my first landing page*/
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:  Roboto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
 }
 
 .header, .footer {
     background-color: #1F2937;
-    color:whitesmoke;
-    font-weight: bolder;
     display: flex;
+    flex: 1 1 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#headerLogo{
+    color: whitesmoke;
+    font-weight: 900;
 }
 
 .header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1%;
+}
+
+.listHead{
+    padding: 8px;
 }
 
 .footer {
+    color: whitesmoke;
     justify-content: center;
     align-items: center;
     padding: 1%;
