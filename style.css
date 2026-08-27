@@ -2,7 +2,6 @@
 
 body {
     font-family:  Roboto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -14,12 +13,24 @@ a {
     color: lightgray;
 }
 
+button {
+    background-color: #3882F6;
+    color: whitesmoke;
+    font-weight: 550;
+    border: white;
+    border-radius: 8px;
+    height: 30px;
+    width: 95px;
+    text-align: center;
+    justify-content: center;
+}
+
 .header, .footer {
     background-color: #1F2937;
     display: flex;
     flex: 1 1 auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #headerLogo{
@@ -36,6 +47,46 @@ a {
 .listHead{
     padding: 8px;
 }
+
+h1{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.imageBlock {
+    background-color: #1F2937;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+#imageBlockLeft{
+    display: flex;
+    flex-direction: column;
+    text-wrap: pretty;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 400px;
+}
+
+#imageBlockRight{
+    display: flex;
+    height: 250px;
+    width: 500px;
+    background-color: blue;
+    
+}
+
+
 
 .footer {
     color: whitesmoke;
