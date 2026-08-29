@@ -198,6 +198,7 @@ img {
 
 /*footer*/
 footer {
+    flex-direction: column;
     color: whitesmoke;
     justify-content: center;
     align-items: center;
