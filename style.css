@@ -28,7 +28,6 @@ button {
     background-color: #3882F6;
     color: whitesmoke;
     font-weight: 550;
-    border: white;
     border-radius: 8px;
     height: 30px;
     width: 95px;
@@ -37,7 +36,7 @@ button {
 }
 
 
-.header, .footer {
+.header, footer {
     background-color: #1F2937;
     display: flex;
     flex: 1 1 auto;
@@ -191,9 +190,8 @@ button {
 }
 
 
-
 /*footer*/
-.footer {
+footer {
     color: whitesmoke;
     justify-content: center;
     align-items: center;
