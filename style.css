@@ -13,16 +13,6 @@ a {
     color: lightgray;
 }
 
-h1{
-    font-size: 50px;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
-
-h2{
-    font-size: 36px;
-}
 
 #imageButton, #bannerButton {
     background-color: #3882F6;
@@ -47,7 +37,7 @@ h2{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    gap: 180px
+    gap: 200px
 }
 
 .listHead{
@@ -58,8 +48,10 @@ h2{
 }
 
 #headerLogo{
+    margin: 0;
+    font-size: 32px;
     color: whitesmoke;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 /*ImageSection*/
@@ -71,8 +63,6 @@ h2{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-
-
 }
 
 #imageBlockLeft{
@@ -80,6 +70,11 @@ h2{
     flex-direction: column;
     text-wrap: pretty;
     flex: 0 2 400px;
+}
+
+#imageBlockLeftTitle{
+    font-size: 50px;
+    font-weight: 600;
 }
 
 #imageBlockRight{
