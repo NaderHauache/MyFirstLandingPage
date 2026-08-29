@@ -24,7 +24,7 @@ h2{
     font-size: 36px;
 }
 
-button {
+#imageButton, #bannerButton {
     background-color: #3882F6;
     color: whitesmoke;
     font-weight: 550;
@@ -90,6 +90,10 @@ button {
     height: 250px;
     width: 600px;
     background-color: blue;
+}
+
+#imageButton{
+    border: 0px solid black;
 }
 
 /*InfoSection*/
@@ -186,7 +190,7 @@ button {
 }
 
 #bannerButton {
-    border-color: 2px solid whitesmoke;
+    border: 2px solid whitesmoke;
 }
 
 
