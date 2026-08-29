@@ -13,6 +13,12 @@ a {
     color: lightgray;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 #imageButton, #bannerButton {
     background-color: #3882F6;
@@ -37,7 +43,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    gap: 200px
+    gap: 360px;
 }
 
 .listHead{
@@ -59,10 +65,12 @@ a {
     background-color: #1F2937;
     color: whitesmoke;
     display: flex;
-    flex: 0 2 400px;
+    flex-direction: row;
+    flex: 0 2 auto;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 72px;
 }
 
 #imageBlockLeft{
@@ -79,9 +87,7 @@ a {
 
 #imageBlockRight{
     display: flex;
-    flex: 0 2 1;
-    width: 400px;
-    height: 150px;
+    flex: 0 2 400px;
     background-color: blue;
 }
 
