@@ -1,5 +1,9 @@
 /*styles.css of my first landing page*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family:  Roboto;
     display: flex;
@@ -42,15 +46,15 @@ img {
 .headerSection {
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 360px;
+    max-width: 100%;
+    justify-content: space-around;
 }
 
 .listHead{
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 16px;
+    gap:16px;
 }
 
 #headerLogo{
@@ -70,7 +74,7 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 72px;
+    padding: 72px 0px;
 }
 
 #imageBlockLeft{
@@ -109,7 +113,7 @@ img {
     display: flex;
     flex:1;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 0px;
     flex-wrap: wrap;
 }
